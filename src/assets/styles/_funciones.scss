@@ -1,0 +1,10 @@
+@mixin alineado($p: null) {
+    @if ($p) {
+        align-items: $p;
+        text-align: center;
+    }
+
+    @else {
+        text-align: center;
+    }
+}
