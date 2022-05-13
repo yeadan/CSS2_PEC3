@@ -3,45 +3,9 @@ body {
   color: $text;
 }
 
-//info
-.presentation {
+//info hecho componente
+/*.presentation {
   padding: 2.5% 15%;
   margin-top: 0%;
   text-align: justify;
-}
-
-.presentation-image {
-  width: 100%;
-}
-
-.blockquote {
-  position: relative;
-  padding: 0.5rem;
-  margin-left: 3rem;
-  font-style: italic;
-  line-height: 1.4;
-}
-
-.blockquote-footer {
-  text-align: right;
-}
-
-.blockquote::before,
-.blockquote::after {
-  position: absolute;
-  width: 4rem;
-  height: 4rem;
-  font-size: 6rem;
-  color: #f1efe6;
-}
-
-.blockquote::before {
-  top: -1rem;
-  left: -3rem;
-  content: "“";
-}
-
-.blockquote::after {
-  right: -3rem;
-  content: "”";
-}
+}*/
