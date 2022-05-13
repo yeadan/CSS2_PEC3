@@ -1,53 +1,6 @@
-// General styles
-html {
-  box-sizing: border-box;
-  height: 100%;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-  padding: 0;
-  margin: 0;
-}
-
 body {
   font-family: $body-font;
   color: $text;
-}
-
-
-
-// cartel
-.cartel {
-  @include alineado();
-
-  h1 {
-    font-family: $header-font;
-    font-weight: bold;
-    color: $accent;
-  }
-}
-
-//contacto
-.carousel {
-  width: 75%;
-  margin: 20px 12.5%;
-}
-
-.formulario {
-  padding-bottom: 20px;
-  margin: 5% 20%;
-}
-
-.formulario-boton {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  padding-bottom: 20px;
 }
 
 //info
@@ -91,22 +44,4 @@ body {
 .blockquote::after {
   right: -3rem;
   content: "”";
-}
-
-//Flex
-.flex {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-
-  .flex-card {
-    width: 100%;
-    height: auto;
-  }
-
-  @media (min-width: 768px) {
-    .flex-card {
-      width: 25%;
-    }
-  }
 }

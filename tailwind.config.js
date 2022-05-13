@@ -1,7 +1,14 @@
 module.exports = {
   content: ['./src/**/*.{html,js}'],
   theme: {
-    extend: {},
+    fontFamily: {
+      'georgia': ['Georgia', 'serif'],
+    },
+    extend: {
+      colors: {
+        accent: "#cc5801",
+      }
+    },
   },
   plugins: [],
 }
