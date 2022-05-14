@@ -26,8 +26,12 @@ module.exports = {
           paddingTop: theme('spacing.p2h'),
           paddingBottom: theme('spacing.p2h'),
           marginTop: theme('spacing.0'),
-          text: theme('text-justify'),
+          'text-align': 'justify',
         },
+        '.content': {
+          padding: theme('spacing.4'),
+          'text-align': 'justify'
+        }
       })
     })]
 }
