@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'georgia': ['Georgia', 'serif'],
+      'body': ["Avenir Book", "Franklin Gothic Medium", 'helvetica', 'arial', 'sans-serif']
     },
     extend: {
       spacing: {
@@ -14,6 +15,7 @@ module.exports = {
       colors: {
         accent: "#cc5801",
         block: "#f1efe6",
+        body: "#282828",
       }
     },
   },
