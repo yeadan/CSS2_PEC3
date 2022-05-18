@@ -10,37 +10,7 @@
 </head>
 
 <body class="font-body text-body">
-  <header>
-    <nav class="flex items-center justify-between flex-wrap bg-gray-50 p-3">
-      <div class="flex items-center flex-shrink-0 text-black mr-6">
-        <span class="font-semibold text-xl tracking-tight">
-          <i class="fa-solid fa-arrow-trend-down"></i>ZigZag<i class="fa-solid fa-arrow-trend-up"></i>
-        </span>
-      </div>
-      <div class="block lg:hidden">
-        <button id='boton'
-          class="flex bg-gray-50 items-center border px-0.5 py-0.5 rounded text-gray-700 border-gray-300">
-          <img class="px-1" src="./assets/images/hamburguer.png">
-        </button>
-      </div>
-      <div id='menu' class="w-full block flex-grow lg:flex lg:items-center lg:w-auto hidden">
-        <div class="text-md lg:flex-grow me-auto lg:flex lg:justify-end">
-          <a href="./index.html" class="link-normal mr-4">
-            Inicio
-          </a>
-          <a href="./cartel.html" class="link-active mr-4">
-            Cartel
-          </a>
-          <a href="./index.html" class="link-normal mr-4">
-            Información
-          </a>
-          <a href="#" class="link-normal">
-            Contacto
-          </a>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <include src="_header.html"></include>
   <main class="container mx-auto sm:px-4 max-w-full mx-auto sm:px-4 mt-5">
     <h1 class="font-georgia pt-5 text-accent text-center text-[6vw] font-bold">Cartel completo</h1>
     <article class="flex md:mt-12 justify-center flex-wrap flex-row">
@@ -90,47 +60,7 @@
       </div>
     </article>
   </main>
-  <footer>
-    <div class="container mx-auto sm:px-4 max-w-full mx-auto sm:px-4 justify-center text-center m-auto mb-5">
-      <br>
-      <p>Av. Juan Carlos I, s/n, 30008 Murcia</p>
-      <p>Email: zigzag@murcia.com</p>
-    </div>
-    <nav class="flex items-center justify-between flex-wrap bg-gray-50 p-3">
-      <div class="flex items-center flex-shrink-0 text-black mr-6">
-        <span class="font-semibold text-xl tracking-tight">
-          <i class="fa-solid fa-arrow-trend-down"></i>ZigZag<i class="fa-solid fa-arrow-trend-up"></i>
-        </span>
-      </div>
-      <div class="block lg:hidden">
-        <button id='boton2'
-          class="flex bg-gray-50 items-center border px-0.5 py-0.5 rounded text-gray-700 border-gray-300">
-          <img class="px-1" src="./assets/images/hamburguer.png">
-        </button>
-      </div>
-      <div id='menu2' class=" w-full block flex-grow lg:flex lg:items-center lg:w-auto hidden">
-        <div class=" text-md lg:flex-grow me-auto lg:flex lg:justify-center">
-          <a href="./index.html" class="link-normal mr-4">
-            Inicio
-          </a>
-          <a href="./cartel.html" class="link-active mr-4">
-            Cartel
-          </a>
-          <a href="./index.html" class="link-normal mr-4">
-            Información
-          </a>
-          <a href="#" class="link-normal">
-            Contacto
-          </a>
-        </div>
-        <div class="px-2 inline">
-          <i class="px-2 fa-brands fa-google-plus-g"></i>
-          <i class="px-2 fa-brands fa-facebook-f"></i>
-          <i class="px-2 fa-brands fa-twitter"></i>
-        </div>
-      </div>
-    </nav>
-  </footer>
+  <include src="_footer.html"></include>
   <script>
     const boton = document.querySelector('#boton');
     const menu = document.querySelector('#menu');
